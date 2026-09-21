@@ -178,7 +178,7 @@
     };
 
     blocks.push({
-        opcode: `clearLocalStorage`,
+        opcode: `openURLinNewTab`,
         blockType: Scratch.BlockType.COMMAND,
         hideFromPalette: false,
         color1: `#4c00ff`,
@@ -193,7 +193,7 @@
         },
         disableMonitor: true
     });
-    Extension.prototype[`clearLocalStorage`] = async (args, util) => {
+    Extension.prototype[`openURLinNewTab`] = async (args, util) => {
         Scratch.open(args["url"])
     };
 
