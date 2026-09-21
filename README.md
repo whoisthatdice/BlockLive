@@ -1,5 +1,5 @@
 # LiveScratch
-[![Install Chrome Extension](https://img.shields.io/badge/Install-Chrome%20Extension-orange?logo=google-chrome)](https://chromewebstore.google.com/detail/livescratch-live-scratch/pfaldlkkohfdnmlcladmhlihpbhlkolm)
+[![Install Chrome Extension](https://img.shields.io/badge/Install-Scratch%20Extension-orange?logo=scratch)](https://chromewebstore.google.com/detail/livescratch-live-scratch/pfaldlkkohfdnmlcladmhlihpbhlkolm)
 
 Real time collaboration extension for scratch!
 - 🟢: UPTIME: https://status.uptime-monitor.io/67497373f98a6334aaea672d
