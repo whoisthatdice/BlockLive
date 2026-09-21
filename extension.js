@@ -198,33 +198,6 @@
     };
 
     blocks.push({
-        opcode: `createMenuInput`,
-        blockType: Scratch.BlockType.COMMAND,
-        hideFromPalette: false,
-        color1: `#00ff00`,
-        color2: `#ff00cc`,
-        color3: `#3e99a3`,
-        text: `create menu input id: [id] menu: [menu]`,
-        arguments: {
-            "id": {
-                type: Scratch.ArgumentType.STRING,
-                defaultValue: args["ID"],
-            },
-            "menu": {
-                type: Scratch.ArgumentType.STRING,
-                defaultValue: args["ID"],
-            },
-        },
-        disableMonitor: true
-    });
-    Extension.prototype[`createMenuInput`] = async (args, util) => {
-        "ID": {
-            type: Scratch.ArgumentType.STRING,
-            menu: 'ID'
-        },
-    };
-
-    blocks.push({
         opcode: `modulo`,
         blockType: Scratch.BlockType.REPORTER,
         hideFromPalette: false,
